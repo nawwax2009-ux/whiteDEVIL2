@@ -1,0 +1,1728 @@
+<!-- Logo Design - whitedevil -->
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Logo Design | whitedevil</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&amp;family=Inter:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "primary": "#c3f5ff",
+                    "primary-container": "#00e5ff",
+                    "surface-container-high": "#282a2b",
+                    "surface-container-low": "#1a1c1c",
+                    "on-primary-fixed-variant": "#004f58",
+                    "on-secondary": "#480081",
+                    "surface-bright": "#38393a",
+                    "on-primary-fixed": "#001f24",
+                    "secondary-fixed": "#efdbff",
+                    "primary-fixed-dim": "#00daf3",
+                    "on-tertiary-fixed": "#1c1b1b",
+                    "on-tertiary": "#313030",
+                    "surface-tint": "#00daf3",
+                    "on-tertiary-container": "#5a5959",
+                    "on-tertiary-fixed-variant": "#474646",
+                    "error-container": "#93000a",
+                    "on-secondary-fixed": "#2c0051",
+                    "surface-container-highest": "#333535",
+                    "inverse-surface": "#e2e2e2",
+                    "on-error-container": "#ffdad6",
+                    "background": "#121414",
+                    "on-surface-variant": "#bac9cc",
+                    "tertiary-container": "#d3d0cf",
+                    "inverse-primary": "#006875",
+                    "tertiary-fixed": "#e5e2e1",
+                    "tertiary-fixed-dim": "#c8c6c5",
+                    "tertiary": "#efecec",
+                    "outline": "#849396",
+                    "surface-container-lowest": "#0d0e0f",
+                    "surface-dim": "#121414",
+                    "surface-container": "#1e2020",
+                    "on-surface": "#e2e2e2",
+                    "primary-fixed": "#9cf0ff",
+                    "on-primary-container": "#00626e",
+                    "on-primary": "#00363d",
+                    "on-secondary-fixed-variant": "#6700b5",
+                    "surface-variant": "#333535",
+                    "outline-variant": "#3b494c",
+                    "error": "#ffb4ab",
+                    "surface": "#121414",
+                    "on-background": "#e2e2e2",
+                    "secondary": "#dcb8ff",
+                    "inverse-on-surface": "#2f3131",
+                    "secondary-fixed-dim": "#dcb8ff",
+                    "on-error": "#690005",
+                    "secondary-container": "#7701d0",
+                    "on-secondary-container": "#dcb7ff"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "base": "8px",
+                    "container-max": "1200px",
+                    "gutter": "24px",
+                    "section-padding": "120px"
+            },
+            "fontFamily": {
+                    "headline-md": ["Montserrat"],
+                    "headline-sm": ["Montserrat"],
+                    "body-lg": ["Inter"],
+                    "display-lg": ["Montserrat"],
+                    "body-md": ["Inter"],
+                    "label-caps": ["Inter"],
+                    "display-lg-mobile": ["Montserrat"]
+            },
+            "fontSize": {
+                    "headline-md": ["32px", {"lineHeight": "40px", "fontWeight": "700"}],
+                    "headline-sm": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                    "display-lg": ["72px", {"lineHeight": "80px", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "label-caps": ["12px", {"lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "600"}],
+                    "display-lg-mobile": ["40px", {"lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "800"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body {
+            background-color: #050505;
+            color: #e2e2e2;
+            overflow-x: hidden;
+        }
+
+        .glass-panel {
+            background: rgba(18, 18, 18, 0.7);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .neon-glow {
+            text-shadow: 0 0 10px rgba(0, 218, 243, 0.5), 0 0 20px rgba(0, 218, 243, 0.3);
+        }
+
+        .neon-border {
+            border: 1px solid rgba(0, 218, 243, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .neon-border:hover {
+            border-color: #00e5ff;
+            box-shadow: 0 0 15px rgba(0, 229, 255, 0.2);
+        }
+
+        .gradient-btn {
+            background: linear-gradient(45deg, #00daf3, #7701d0);
+            transition: transform 0.3s ease, filter 0.3s ease;
+        }
+
+        .gradient-btn:hover {
+            transform: scale(1.05);
+            filter: brightness(1.2);
+            box-shadow: 0 0 20px rgba(0, 218, 243, 0.4);
+        }
+
+        .text-gradient {
+            background: linear-gradient(to right, #c3f5ff, #00e5ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .reveal-on-scroll {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease-out;
+        }
+
+        .reveal-on-scroll.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="font-body-md text-body-md selection:bg-primary/30">
+<!-- Header (TopAppBar) -->
+<header class="fixed top-0 left-0 w-full z-50 bg-background/70 backdrop-blur-xl border-b border-white/5 h-20 flex items-center">
+<div class="max-w-container-max mx-auto px-gutter w-full flex justify-between items-center">
+<div class="flex flex-col">
+<span class="text-headline-sm font-headline-sm font-extrabold tracking-tighter text-primary drop-shadow-[0_0_10px_rgba(0,218,243,0.5)] leading-tight">whitedevil</span>
+<span class="text-label-caps font-label-caps text-on-surface-variant text-[10px]">Powered by Nawod</span>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-primary font-bold transition-all hover:opacity-80 font-label-caps text-label-caps" href="#">PORTFOLIO</a>
+<a class="text-on-surface-variant hover:text-primary transition-all font-label-caps text-label-caps" href="#">SERVICES</a>
+<a class="px-6 py-2 border border-primary/20 text-primary font-label-caps text-label-caps rounded-full hover:bg-primary/10 transition-all" href="https://wa.me/94702277854">CONTACT</a>
+</nav>
+<button class="md:hidden text-primary">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</header>
+<main class="pt-20">
+<!-- Hero Section -->
+<section class="relative min-h-[70vh] flex items-center justify-center overflow-hidden py-section-padding">
+<div class="absolute inset-0 z-0 pointer-events-none opacity-40">
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/20 blur-[120px] rounded-full"></div>
+</div>
+<div class="relative z-10 max-w-container-max mx-auto px-gutter text-center">
+<div class="inline-block px-4 py-1 mb-6 border border-primary/30 rounded-full bg-primary/5">
+<span class="text-label-caps font-label-caps text-primary tracking-widest uppercase">Identity Architecture</span>
+</div>
+<h1 class="font-display-lg text-display-lg-mobile md:text-display-lg mb-6 neon-glow uppercase tracking-tighter">
+                    LOGO <span class="text-gradient">DESIGN</span>
+</h1>
+<p class="max-w-2xl mx-auto text-on-surface-variant font-body-lg text-body-lg leading-relaxed mb-10">
+                    Crafting iconic visual identities that define brands. Unique, memorable, and precision-engineered logos designed for the next generation of digital excellence.
+                </p>
+<div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+<a class="gradient-btn px-8 py-4 rounded-full font-headline-sm text-headline-sm text-on-primary flex items-center gap-2" href="https://wa.me/94702277854">
+                        Start a Project
+                        <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Visual Showcase Section -->
+<section class="py-section-padding bg-surface-container-lowest">
+<div class="max-w-container-max mx-auto px-gutter">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<!-- Image 5 Placeholder -->
+<div class="group relative aspect-[1.79] overflow-hidden rounded-xl border border-white/5 reveal-on-scroll">
+<img alt="Identity Showcase" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida/AP1WRLsC-e6hgSxv2g6KRj5usu-U2myIGRAULz4J1PeE7w2GL7sq1-mmyp0VjbSF_1n4NJkgdHVuKSfZpnkTvH-8eA5wkYJbAcIeKRxsIiJj6qqvtwdtzEY0YIJs1TCEUS5zurexL7NL8r0CN_-LVPf9i-i11qdQHcFp9PXs9L9M-ri0vW7ov2Ikuzi81pil5mRMEOg942KnykQQAsrodbrY1YorLqMD8j3kJ9TZy9ghWt6sojVEZ6AGqSp6_dE"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-60"></div>
+<div class="absolute bottom-6 left-6">
+<span class="text-label-caps font-label-caps text-primary bg-background/80 px-3 py-1 rounded backdrop-blur-sm">CRAFTED PRECISION</span>
+</div>
+</div>
+<!-- Image 6 Placeholder -->
+<div class="group relative aspect-[1.79] overflow-hidden rounded-xl border border-white/5 reveal-on-scroll" style="transition-delay: 200ms;">
+<img alt="Portfolio Aesthetic" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida/AP1WRLvV1GJUTikbCdnu6fwxYDCVHIWjCz88UilYUxl21WfJkcrM2zJpLDYFxBzwAGAKGCL6oWaaDb_whY2UATSSMJKuvNr4jKzIo4CgJ4cy2ReSSsmPrfUVjfVM4WiUMyjs-GhyzhS1ghWbbCK8P1M210IKpeV2L0wI1jAIb0eodrxNO5jqB5VpPgtFldI0vhznMdmMm-4zcA39YolsttIytQWe5xKoSXTZfOgJPESOWlpXKv7n6azf23dRa-U"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-60"></div>
+<div class="absolute bottom-6 left-6">
+<span class="text-label-caps font-label-caps text-primary bg-background/80 px-3 py-1 rounded backdrop-blur-sm">MINIMALIST MASTERY</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Services/Categories Grid (Bento Style) -->
+<section class="py-section-padding bg-background relative overflow-hidden">
+<div class="max-w-container-max mx-auto px-gutter relative z-10">
+<div class="mb-16">
+<h2 class="font-headline-md text-headline-md mb-4 uppercase tracking-tight">Our <span class="text-primary">Specialties</span></h2>
+<div class="w-24 h-1 bg-primary"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Minimalist Monograms -->
+<div class="glass-panel p-8 rounded-xl flex flex-col gap-6 neon-border reveal-on-scroll">
+<div class="w-14 h-14 rounded-lg bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-3xl">token</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm mb-3">Minimalist Monograms</h3>
+<p class="text-on-surface-variant font-body-md text-body-md leading-relaxed">
+                                Clean, elegant marks that distill your brand into its purest form. Perfect for luxury tech and high-end creative labels.
+                            </p>
+</div>
+<div class="mt-auto">
+<ul class="text-label-caps font-label-caps text-primary/60 flex flex-col gap-2">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-xs">check</span> GEOMETRIC RATIOS</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-xs">check</span> SYMBOLIC DEPTH</li>
+</ul>
+</div>
+</div>
+<!-- Custom Wordmarks -->
+<div class="glass-panel p-8 rounded-xl flex flex-col gap-6 neon-border reveal-on-scroll" style="transition-delay: 150ms;">
+<div class="w-14 h-14 rounded-lg bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-3xl">match_case</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm mb-3">Custom Wordmarks</h3>
+<p class="text-on-surface-variant font-body-md text-body-md leading-relaxed">
+                                Bespoke typography designed specifically for your brand name. No templates, just pure custom-drawn letterforms.
+                            </p>
+</div>
+<div class="mt-auto">
+<ul class="text-label-caps font-label-caps text-primary/60 flex flex-col gap-2">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-xs">check</span> KERNING PRECISION</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-xs">check</span> UNIQUE LIGATURES</li>
+</ul>
+</div>
+</div>
+<!-- Emblem & Illustrative -->
+<div class="glass-panel p-8 rounded-xl flex flex-col gap-6 neon-border reveal-on-scroll" style="transition-delay: 300ms;">
+<div class="w-14 h-14 rounded-lg bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-3xl">auto_awesome</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm mb-3">Emblem &amp; Illustrative</h3>
+<p class="text-on-surface-variant font-body-md text-body-md leading-relaxed">
+                                Detailed, character-driven logos with deep storytelling. Designed for gaming clans, esports, and lifestyle brands.
+                            </p>
+</div>
+<div class="mt-auto">
+<ul class="text-label-caps font-label-caps text-primary/60 flex flex-col gap-2">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-xs">check</span> CHARACTER ASSETS</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-xs">check</span> VECTOR DEPTH</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-section-padding">
+<div class="max-w-container-max mx-auto px-gutter">
+<div class="relative overflow-hidden rounded-3xl bg-surface-container py-20 px-8 text-center border border-white/5">
+<div class="absolute inset-0 opacity-10 pointer-events-none">
+<div class="absolute -top-1/2 -left-1/2 w-full h-full bg-gradient-to-br from-primary to-transparent blur-[100px]"></div>
+</div>
+<div class="relative z-10">
+<h2 class="font-display-lg text-display-lg-mobile md:text-headline-md mb-8">Ready to brand your business?</h2>
+<p class="max-w-xl mx-auto text-on-surface-variant font-body-lg text-body-lg mb-12">
+                            Transform your vision into a legendary identity. Let's build a brand that stands out in the obsidian night of the digital world.
+                        </p>
+<a class="inline-flex items-center gap-4 gradient-btn px-10 py-5 rounded-full font-headline-sm text-headline-sm text-on-primary" href="https://wa.me/94702277854">
+<span class="material-symbols-outlined">chat</span>
+                            Start a Logo Project
+                        </a>
+<p class="mt-6 text-label-caps font-label-caps text-primary/40 uppercase tracking-widest">Immediate response via WhatsApp</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-section-padding px-gutter bg-surface-container-lowest border-t border-white/5">
+<div class="max-w-container-max mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-12">
+<div class="flex flex-col gap-2">
+<div class="flex flex-col">
+<span class="text-headline-sm font-headline-sm text-primary leading-tight">whitedevil</span>
+<span class="text-label-caps font-label-caps text-on-surface-variant text-[10px]">Powered by Nawod</span>
+</div>
+<p class="text-on-surface-variant text-body-md font-body-md mt-4 max-w-sm">
+                    © 2024 whitedevil (Nawod Lakshan). Please send a message for all purchases.
+                </p>
+</div>
+<div class="grid grid-cols-2 gap-x-16 gap-y-4">
+<div class="flex flex-col gap-3">
+<span class="text-label-caps font-label-caps text-primary">NAVIGATION</span>
+<a class="text-on-surface-variant hover:text-primary transition-all font-body-md" href="#">Portfolio</a>
+<a class="text-on-surface-variant hover:text-primary transition-all font-body-md" href="#">Services</a>
+</div>
+<div class="flex flex-col gap-3">
+<span class="text-label-caps font-label-caps text-primary">SOCIAL</span>
+<a class="text-on-surface-variant hover:text-primary transition-all font-body-md" href="#">Instagram</a>
+<a class="text-on-surface-variant hover:text-primary transition-all font-body-md" href="#">LinkedIn</a>
+</div>
+</div>
+</div>
+</footer>
+<script>
+        // Intersection Observer for scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.reveal-on-scroll').forEach(el => observer.observe(el));
+
+        // Smooth reveal for images on load
+        window.addEventListener('load', () => {
+            document.body.classList.add('loaded');
+        });
+    </script>
+</body></html>
+
+<!-- Home - whitedevil Portfolio -->
+<!DOCTYPE html><html class="dark scroll-smooth" lang="en" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>whitedevil | Nawod Lakshan Portfolio</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;family=Montserrat:wght@600;700;800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "tertiary-fixed": "#e5e2e1",
+                      "surface-container-lowest": "#0d0e0f",
+                      "surface-container-highest": "#333535",
+                      "surface": "#121414",
+                      "outline": "#849396",
+                      "on-secondary": "#480081",
+                      "tertiary": "#efecec",
+                      "outline-variant": "#3b494c",
+                      "error-container": "#93000a",
+                      "on-secondary-fixed-variant": "#6700b5",
+                      "surface-variant": "#333535",
+                      "on-secondary-fixed": "#2c0051",
+                      "surface-container": "#1e2020",
+                      "primary-fixed-dim": "#00daf3",
+                      "on-error-container": "#ffdad6",
+                      "error": "#ffb4ab",
+                      "primary-fixed": "#9cf0ff",
+                      "on-surface": "#e2e2e2",
+                      "surface-dim": "#121414",
+                      "secondary-fixed-dim": "#dcb8ff",
+                      "tertiary-container": "#d3d0cf",
+                      "primary": "#c3f5ff",
+                      "on-surface-variant": "#bac9cc",
+                      "on-primary-container": "#00626e",
+                      "on-tertiary": "#313030",
+                      "on-primary-fixed-variant": "#004f58",
+                      "secondary-fixed": "#efdbff",
+                      "on-primary-fixed": "#001f24",
+                      "on-background": "#e2e2e2",
+                      "surface-container-low": "#1a1c1c",
+                      "on-error": "#690005",
+                      "on-tertiary-fixed-variant": "#474646",
+                      "inverse-on-surface": "#2f3131",
+                      "secondary": "#dcb8ff",
+                      "tertiary-fixed-dim": "#c8c6c5",
+                      "surface-bright": "#38393a",
+                      "surface-tint": "#00daf3",
+                      "surface-container-high": "#282a2b",
+                      "inverse-primary": "#006875",
+                      "background": "#121414",
+                      "secondary-container": "#7701d0",
+                      "on-secondary-container": "#dcb7ff",
+                      "on-tertiary-fixed": "#1c1b1b",
+                      "on-primary": "#00363d",
+                      "inverse-surface": "#e2e2e2",
+                      "on-tertiary-container": "#5a5959",
+                      "primary-container": "#00e5ff"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "spacing": {
+                      "section-padding": "120px",
+                      "base": "8px",
+                      "container-max": "1200px",
+                      "gutter": "24px"
+              },
+              "fontFamily": {
+                      "headline-md": [
+                              "Montserrat"
+                      ],
+                      "body-lg": [
+                              "Inter"
+                      ],
+                      "headline-sm": [
+                              "Montserrat"
+                      ],
+                      "display-lg": [
+                              "Montserrat"
+                      ],
+                      "display-lg-mobile": [
+                              "Montserrat"
+                      ],
+                      "body-md": [
+                              "Inter"
+                      ],
+                      "label-caps": [
+                              "Inter"
+                      ]
+              },
+              "fontSize": {
+                      "headline-md": [
+                              "32px",
+                              {
+                                      "lineHeight": "40px",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "body-lg": [
+                              "18px",
+                              {
+                                      "lineHeight": "28px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "headline-sm": [
+                              "24px",
+                              {
+                                      "lineHeight": "32px",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "display-lg": [
+                              "72px",
+                              {
+                                      "lineHeight": "80px",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "800"
+                              }
+                      ],
+                      "display-lg-mobile": [
+                              "40px",
+                              {
+                                      "lineHeight": "48px",
+                                      "letterSpacing": "-0.01em",
+                                      "fontWeight": "800"
+                              }
+                      ],
+                      "body-md": [
+                              "16px",
+                              {
+                                      "lineHeight": "24px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "label-caps": [
+                              "12px",
+                              {
+                                      "lineHeight": "16px",
+                                      "letterSpacing": "0.1em",
+                                      "fontWeight": "600"
+                              }
+                      ]
+              }
+      },
+          },
+        }
+    </script>
+<style>
+        /* Custom glows and gradients based on design system */
+        .glow-primary {
+            box-shadow: 0 0 15px rgba(195, 245, 255, 0.3); /* Based on primary color */
+        }
+        .glow-primary-strong {
+            box-shadow: 0 0 25px rgba(195, 245, 255, 0.5);
+        }
+        .btn-gradient {
+            background: linear-gradient(45deg, #c3f5ff, #dcb8ff);
+        }
+        
+        /* Smooth reveal animation classes */
+        .reveal-up {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .reveal-up.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Glass card styling */
+        .glass-card {
+            background: #121212;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+        .glass-card:hover {
+            border-color: rgba(255, 255, 255, 0.3);
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        
+        /* Grid background pattern */
+        .bg-grid-pattern {
+            background-image: 
+                linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+            background-size: 40px 40px;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-surface font-body-lg overflow-x-hidden antialiased selection:bg-primary-container selection:text-on-primary-container" data-mode="connect">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full bg-surface/70 dark:bg-surface/70 backdrop-blur-xl border-b border-white/5 shadow-[0_0_20px_rgba(0,218,243,0.1)] z-50 transition-all duration-300 py-2" id="topNav">
+<div class="flex justify-between items-center px-gutter py-4 max-w-container-max mx-auto z-50">
+<!-- Brand / Leading -->
+<a class="flex items-center gap-2 group hover:brightness-125 transition-all duration-300 active:scale-95 duration-200" href="#">
+<span class="material-symbols-outlined text-primary dark:text-primary-fixed-dim" style="font-variation-settings: &quot;FILL&quot; 1;">terminal</span>
+<div class="flex flex-col">
+<span class="font-display-lg-mobile text-display-lg-mobile tracking-tighter text-primary dark:text-primary-fixed-dim leading-none">qrwhitedevil</span>
+<span class="text-[10px] font-label-caps text-primary/60 tracking-widest uppercase mt-0.5">Powered by Nawod</span>
+</div>
+</a>
+<!-- Navigation Links (Desktop) -->
+<nav class="hidden md:flex gap-8 items-center font-headline-sm text-headline-sm">
+<a class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary transition-colors" href="#work">Work</a>
+<a class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary transition-colors" href="#services">Services</a>
+<a class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary transition-colors" href="#about">About</a>
+<a class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary transition-colors" href="#connect">Connect</a>
+</nav>
+<!-- Trailing Action -->
+<a class="hidden md:flex items-center justify-center btn-gradient text-on-primary font-headline-sm text-headline-sm px-6 py-2 rounded-DEFAULT hover:brightness-125 glow-primary transition-all duration-300 active:scale-95" href="https://api.whatsapp.com/send/?phone=94702277854&amp;text&amp;type=phone_number&amp;app_absent=0" target="_blank">
+                Contact
+            </a>
+<!-- Mobile Menu Trigger -->
+<button class="md:hidden text-primary p-2 focus:outline-none" id="mobileMenuBtn">
+<span class="material-symbols-outlined text-3xl">menu</span>
+</button>
+</div>
+</header>
+<!-- NavigationDrawer (Mobile) -->
+<div class="fixed inset-y-0 left-0 z-[60] bg-surface-container dark:bg-surface-container h-full w-72 border-r border-white/10 shadow-2xl transform -translate-x-full transition-transform duration-300 ease-in-out md:hidden flex flex-col" id="mobileDrawer">
+<!-- Header Profile -->
+<div class="p-6 border-b border-white/5 flex flex-col gap-4">
+<div class="flex justify-between items-start">
+<div class="w-16 h-16 rounded-full overflow-hidden border-2 border-primary/20">
+<img alt="Nawod Lakshan" class="w-full h-full object-cover" data-alt="A highly detailed close-up portrait of a futuristic creative technologist, dimly lit with cyan and purple neon accents reflecting on their face, set against a dark void background. The style is hyper-realistic cyberpunk photography." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDo0WSOBOHrNxQBuPKRHUInFA0G7Rc7g9odlTS698lPucyTGfnbXNdL5xaaZ7NR5RY1bscjusZt7LcYgnLgrE8-dONriQxUe7eMo_QfPRahkSMN2vFEuXCpCZkEIP-ALKdD0bQ1hNUkR0qgTcixcz2PfTyI4qtA945TuZHdOkBPIIJ6QDkGjRNkLmCQyr8Nwhqa1iYhbSyMW1j1WwsQAVuBtMBuxcskfDzt6IG5lwykwodZerb7TrZ6cFZjxt5m5B5Aw2SYjeAo-ZM">
+</div>
+<button class="text-on-surface-variant hover:text-primary p-1" id="closeMenuBtn">
+<span class="material-symbols-outlined">close</span>
+</button>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Nawod Lakshan</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Creative Technologist</p>
+<p class="font-label-caps text-label-caps text-primary/60 mt-1">@whitedevil</p>
+</div>
+</div>
+<!-- Links -->
+<nav class="flex-1 overflow-y-auto p-4 space-y-2 font-body-md text-body-md">
+<a class="flex items-center gap-4 px-4 py-3 rounded-full text-on-surface-variant hover:bg-surface-variant hover:translate-x-2 transition-transform active:scale-98" href="#work">
+<span class="material-symbols-outlined">grid_view</span>
+                Work
+            </a>
+<a class="flex items-center gap-4 px-4 py-3 rounded-full text-on-surface-variant hover:bg-surface-variant hover:translate-x-2 transition-transform active:scale-98" href="#services">
+<span class="material-symbols-outlined">bolt</span>
+                Services
+            </a>
+<a class="flex items-center gap-4 px-4 py-3 rounded-full text-on-surface-variant hover:bg-surface-variant hover:translate-x-2 transition-transform active:scale-98" href="#about">
+<span class="material-symbols-outlined">person</span>
+                About
+            </a>
+<a class="flex items-center gap-4 px-4 py-3 rounded-full text-on-surface-variant hover:bg-surface-variant hover:translate-x-2 transition-transform active:scale-98" href="#connect">
+<span class="material-symbols-outlined">mail</span>
+                Connect
+            </a>
+</nav>
+</div>
+<!-- Drawer Overlay -->
+<div class="fixed inset-0 bg-black/60 backdrop-blur-sm z-[55] hidden md:hidden opacity-0 transition-opacity duration-300" id="drawerOverlay"></div>
+<main class="pt-24 md:pt-32 bg-grid-pattern relative">
+<!-- Ambient Background Glows -->
+<div class="absolute top-0 left-1/4 w-96 h-96 bg-primary/10 rounded-full blur-[100px] pointer-events-none"></div>
+<div class="absolute top-1/2 right-0 w-[500px] h-[500px] bg-secondary/5 rounded-full blur-[120px] pointer-events-none"></div>
+<!-- HERO SECTION -->
+<section class="min-h-[707px] flex items-center px-gutter max-w-container-max mx-auto relative z-10 py-section-padding">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center w-full">
+<!-- Text Content -->
+<div class="md:col-span-7 space-y-8 reveal-up active">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20">
+<span class="material-symbols-outlined text-primary text-sm">flare</span>
+<span class="font-label-caps text-label-caps text-primary tracking-widest uppercase">Nawod Lakshan</span>
+</div>
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-on-surface">
+                        Creative <br>
+<span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Design Solutions</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+                        I specialize in crafting high-end digital aesthetics, bringing bold visions to life through precise, dark-mode focused graphic and web design.
+                    </p>
+<div class="flex flex-wrap gap-4 pt-4">
+<a class="btn-gradient text-on-primary font-headline-sm text-headline-sm px-8 py-4 rounded-DEFAULT hover:brightness-125 glow-primary transition-all duration-300 flex items-center gap-2 group" href="#work">
+                            Explore Work
+                            <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+<a class="px-8 py-4 rounded-DEFAULT border border-primary text-primary font-headline-sm text-headline-sm hover:bg-primary/5 transition-colors flex items-center gap-2" href="#about">
+                            About Me
+                        </a>
+</div>
+</div>
+<!-- Visual Accent -->
+<div class="md:col-span-5 relative h-[400px] md:h-[500px] reveal-up delay-200 active">
+<div class="absolute inset-0 rounded-xl overflow-hidden glass-card p-2 transform rotate-3 hover:rotate-0 transition-transform duration-500">
+<div class="w-full h-full relative rounded-lg overflow-hidden">
+<img alt="Creative Design Concept" class="absolute inset-0 w-full h-full object-cover" data-alt="A surreal, high-end 3D abstract digital art rendering featuring fluid glass forms, floating geometric monoliths, and neon cyan and purple light trails in a vast, dark minimalist void. The aesthetic is ultra-modern, crisp, and implies advanced technological creativity." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCorIdti4w6pmvCx_zrvpg1lYHFwDXZehEuodRu7mBOwBl0J5I-H2mP6bU1skjdoptBdf0OchcNFXiCaafWVhFB5Pq09x1D1VXrSuhKl-uT-hjXtFQXZc_BcUeBSPCiwjcHnDL2LkG_Lx2OxnmF3u0qPzJfDyFTbMaCHRn8iih5F201tCWjWBFm0M53X_GyfFgUd2qNK0u8w8sp2UbVcL7kHGIcEI_dB9abrzRPfQWjPdYvVrXkL5GwBzVmm93U-tDm1Glc8CEm9kg">
+<div class="absolute inset-0 bg-gradient-to-t from-[#121212] via-transparent to-transparent"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ABOUT ME SECTION -->
+<section class="py-section-padding px-gutter max-w-container-max mx-auto relative z-10" id="about">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+<div class="order-2 md:order-1 relative reveal-up active">
+<div class="aspect-square max-w-md mx-auto glass-card rounded-xl p-2 relative z-10">
+<img alt="Workspace" class="w-full h-full object-cover rounded-lg filter grayscale hover:grayscale-0 transition-all duration-700" data-alt="A moody, high-contrast workspace setup in a dark room. A glowing monitor displays complex design software UI. A mechanical keyboard is visible. The scene is illuminated only by the cyan and magenta glow from the screens, portraying a dedicated digital creator's environment." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDi_YE_t4zHzBLDnpjFAdKFCAJT8bADQ7ObJMp5mTTiU-WcjCkt54JgmR9Dsl_I_3iUmkga524ywIYa0P80qef-z7xYr1TjQQIJ1KQutH8gOQ4USAkPCfkdoYKdbkv7R9C_930ytLjt0iSxj4F8U0VmUxQmqj68ITwKfSWP6KDF3Dw-2O0l0Tsik-ro6zLKiQsBvkkHyn-QsN-NyHFRV7A5e_2vHvEtaFL2X0fB-Z3L63yezhC5OcZcVM_BDGfM3SD0yCcpcUs0INw">
+</div>
+<!-- Decorative elements behind image -->
+<div class="absolute -bottom-6 -left-6 w-24 h-24 bg-primary/20 rounded-full blur-xl"></div>
+<div class="absolute -top-6 -right-6 w-32 h-32 bg-secondary/20 rounded-full blur-xl"></div>
+</div>
+<div class="order-1 md:order-2 space-y-6 reveal-up delay-100 active">
+<h2 class="font-headline-md text-headline-md text-on-surface">The Mind Behind<br> <span class="text-primary">whitedevil</span></h2>
+<div class="w-12 h-1 bg-gradient-to-r from-primary to-transparent"></div>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+                        I am Nawod Lakshan, a 17-year-old aspiring Junior Graphic Designer from Habarana, Sri Lanka. 
+                    </p>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+                        I am passionate about learning graphic design and continuously improving my creative skills to build experiences that look as flawless as they function.
+                    </p>
+<div class="flex gap-4 pt-4">
+<div class="flex flex-col">
+<span class="font-display-lg-mobile text-display-lg-mobile text-primary">100%</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">Dedication</span>
+</div>
+<div class="w-px h-full bg-white/10 mx-4"></div>
+<div class="flex flex-col">
+<span class="font-display-lg-mobile text-display-lg-mobile text-secondary">∞</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">Creativity</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SERVICES BENTO GRID -->
+<section class="py-section-padding px-gutter max-w-container-max mx-auto relative z-10" id="services">
+<div class="text-center mb-16 reveal-up active">
+<h2 class="font-headline-md text-headline-md text-on-surface mb-4">Design Services</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">Precision-engineered visual assets for modern brands.</p>
+</div>
+<!-- Bento Grid Layout -->
+<div class="grid grid-cols-1 md:grid-cols-4 md:grid-rows-2 gap-4 h-auto md:h-[600px]">
+<!-- Large Card 1 -->
+<div class="md:col-span-2 md:row-span-2 glass-card rounded-xl p-8 flex flex-col justify-end relative overflow-hidden group reveal-up active">
+<div class="absolute inset-0 z-0">
+<img alt="Web Design" class="w-full h-full object-cover opacity-40 group-hover:opacity-60 transition-opacity duration-500 group-hover:scale-105" data-alt="A close-up view of a sleek, dark-themed website interface prototype floating on a digital canvas. Thin glowing cyan lines trace the layout grids. High contrast, professional tech aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAnY11CqD9SFw7mDFRl5ATqk3CofSqWG4bLHc0mF65BdN_8aZLS9u709UjTf2P1NWuVOI0uhABq78y7K2z5gH8rgrJFSveEeJWocHF4IKhtcSO9OvMBa4nT5tA1MNOUMf0LZVH1GQ4KXQlBegfoAU6vwX349J8GERwC4fF-NPes_XAyfKyn6q6-P1IjAz_ZOQAisWnqUVfnRNxucLQgIg7Dl42zjKKskm4wnppMy6upBXcUiiHyfwN1B5DEPwhKYxtt7arroRDiAJ0">
+<div class="absolute inset-0 bg-gradient-to-t from-[#121212] via-[#121212]/80 to-transparent"></div>
+</div>
+<div class="relative z-10 space-y-4">
+<span class="material-symbols-outlined text-4xl text-primary mb-2">web</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Website Design</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Striking, minimalist interfaces focused on user experience and dark-mode elegance.</p>
+</div>
+</div>
+<!-- Medium Card 1 -->
+<div class="md:col-span-1 md:row-span-1 glass-card rounded-xl p-6 flex flex-col justify-between group reveal-up delay-100 active">
+<span class="material-symbols-outlined text-3xl text-secondary">brush</span>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Graphic Design</h3>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm">Visual storytelling through bold imagery and layout.</p>
+</div>
+</div>
+<!-- Medium Card 2 -->
+<div class="md:col-span-1 md:row-span-1 glass-card rounded-xl p-6 flex flex-col justify-between group reveal-up delay-200 active">
+<span class="material-symbols-outlined text-3xl text-primary">interests</span>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Logo Design</h3>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm">Distinctive, memorable brand marks.</p>
+</div>
+</div>
+<!-- Wide Card -->
+<div class="md:col-span-2 md:row-span-1 glass-card rounded-xl p-6 flex items-center justify-between group overflow-hidden relative reveal-up delay-300 active">
+<div class="absolute right-0 top-0 w-1/2 h-full bg-gradient-to-l from-primary/10 to-transparent"></div>
+<div class="relative z-10 w-full">
+<div class="flex items-center gap-3 mb-2">
+<span class="material-symbols-outlined text-2xl text-on-surface">campaign</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Posters &amp; Banners</h3>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-[80%]">High-impact business promotional materials designed to capture attention instantly.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- SPECIALIZATIONS SECTION -->
+<section class="py-section-padding px-gutter max-w-container-max mx-auto border-t border-white/5 relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+<div class="lg:col-span-1 reveal-up active">
+<h2 class="font-headline-md text-headline-md text-on-surface mb-4">Specialized Output</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8">Refined details for personal and professional branding, enhanced by modern toolsets.</p>
+<!-- Decorative Element -->
+<div class="w-full h-32 glass-card rounded-lg flex items-center justify-center relative overflow-hidden">
+<div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMiIgY3k9IjIiIHI9IjIiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4wNSkiLz48L3N2Zz4=')] [background-size:20px_20px]"></div>
+<span class="material-symbols-outlined text-5xl text-primary/30" style="font-variation-settings: &quot;FILL&quot; 1;">smart_toy</span>
+</div>
+</div>
+<div class="lg:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-4">
+<!-- Spec Items -->
+<div class="glass-card p-4 flex items-center gap-4 rounded-lg reveal-up delay-100 active">
+<div class="w-10 h-10 rounded bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">contact_page</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface text-lg">Professional CVs</span>
+</div>
+<div class="glass-card p-4 flex items-center gap-4 rounded-lg reveal-up delay-150 active">
+<div class="w-10 h-10 rounded bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined">badge</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface text-lg">Business Cards</span>
+</div>
+<div class="glass-card p-4 flex items-center gap-4 rounded-lg reveal-up delay-200 active">
+<div class="w-10 h-10 rounded bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">drafts</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface text-lg">Invitation Cards</span>
+</div>
+<div class="glass-card p-4 flex items-center gap-4 rounded-lg reveal-up delay-250 active">
+<div class="w-10 h-10 rounded bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined">account_circle</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface text-lg">Profile Pictures</span>
+</div>
+<div class="glass-card p-4 flex items-center gap-4 rounded-lg sm:col-span-2 bg-gradient-to-r from-primary/5 to-transparent border-primary/20 reveal-up delay-300 active">
+<div class="w-10 h-10 rounded bg-primary/20 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">auto_awesome</span>
+</div>
+<div>
+<span class="font-headline-sm text-headline-sm text-primary text-lg block">AI-Powered Design Tools</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant block mt-1">Integrating next-gen tech for rapid ideation</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full bg-surface-container-lowest dark:bg-surface-container-lowest border-t border-white/10 mt-20" id="connect">
+<div class="flex flex-col md:flex-row justify-between items-center py-section-padding px-gutter max-w-container-max mx-auto gap-8 text-center md:text-left">
+<!-- Brand / Copyright -->
+<div class="flex flex-col gap-2"><p class="font-body-md text-body-md text-on-tertiary-fixed-variant opacity-70 mb-1">Please send a message for all purchases</p>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface leading-none">whitedevil</span>
+<span class="text-[10px] font-label-caps text-on-tertiary-fixed-variant opacity-60 tracking-widest uppercase mt-1">Powered by Nawod</span>
+</div>
+<span class="font-label-caps text-label-caps text-on-tertiary-fixed-variant">© 2026 whitedevil / Nawod Lakshan. All rights reserved.</span>
+</div>
+<!-- Links -->
+<div class="flex gap-6 font-label-caps text-label-caps"><a class="text-on-tertiary-fixed-variant hover:text-primary hover:opacity-80 transition-opacity cursor-pointer" href="https://api.whatsapp.com/send/?phone=94702277854&amp;text&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener noreferrer">WhatsApp</a></div>
+</div>
+</footer>
+<!-- Interactive Scripts -->
+<script>
+        // Scroll Reveal Animation
+        document.addEventListener('DOMContentLoaded', () => {
+            const reveals = document.querySelectorAll('.reveal-up');
+            
+            const revealOnScroll = () => {
+                const windowHeight = window.innerHeight;
+                const elementVisible = 100;
+                
+                reveals.forEach((reveal) => {
+                    const elementTop = reveal.getBoundingClientRect().top;
+                    if (elementTop < windowHeight - elementVisible) {
+                        reveal.classList.add('active');
+                    }
+                });
+            };
+
+            window.addEventListener('scroll', revealOnScroll);
+            revealOnScroll(); // Trigger on load
+            
+            // Top Nav Scroll Effect
+            const topNav = document.getElementById('topNav');
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 50) {
+                    topNav.classList.add('py-2');
+                    topNav.classList.remove('py-4');
+                } else {
+                    topNav.classList.add('py-4');
+                    topNav.classList.remove('py-2');
+                }
+            });
+
+            // Mobile Menu Logic
+            const mobileBtn = document.getElementById('mobileMenuBtn');
+            const closeBtn = document.getElementById('closeMenuBtn');
+            const drawer = document.getElementById('mobileDrawer');
+            const overlay = document.getElementById('drawerOverlay');
+            const drawerLinks = drawer.querySelectorAll('a');
+
+            const openDrawer = () => {
+                drawer.classList.remove('-translate-x-full');
+                overlay.classList.remove('hidden');
+                // Small delay to allow display block to apply before opacity transition
+                setTimeout(() => {
+                    overlay.classList.remove('opacity-0');
+                    overlay.classList.add('opacity-100');
+                }, 10);
+                document.body.style.overflow = 'hidden';
+            };
+
+            const closeDrawer = () => {
+                drawer.classList.add('-translate-x-full');
+                overlay.classList.remove('opacity-100');
+                overlay.classList.add('opacity-0');
+                setTimeout(() => {
+                    overlay.classList.add('hidden');
+                }, 300);
+                document.body.style.overflow = '';
+            };
+
+            mobileBtn.addEventListener('click', openDrawer);
+            closeBtn.addEventListener('click', closeDrawer);
+            overlay.addEventListener('click', closeDrawer);
+            
+            drawerLinks.forEach(link => {
+                link.addEventListener('click', closeDrawer);
+            });
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body></html>
+
+<!-- Login - whitedevil -->
+<!DOCTYPE html><html class="dark" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Login - whitedevil</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&amp;family=Inter:wght@400;600&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "tertiary-fixed": "#e5e2e1",
+                        "surface-container-lowest": "#0d0e0f",
+                        "surface-container-highest": "#333535",
+                        "surface": "#121414",
+                        "outline": "#849396",
+                        "on-secondary": "#480081",
+                        "tertiary": "#efecec",
+                        "outline-variant": "#3b494c",
+                        "error-container": "#93000a",
+                        "on-secondary-fixed-variant": "#6700b5",
+                        "surface-variant": "#333535",
+                        "on-secondary-fixed": "#2c0051",
+                        "surface-container": "#1e2020",
+                        "primary-fixed-dim": "#00daf3",
+                        "on-error-container": "#ffdad6",
+                        "error": "#ffb4ab",
+                        "primary-fixed": "#9cf0ff",
+                        "on-surface": "#e2e2e2",
+                        "surface-dim": "#121414",
+                        "secondary-fixed-dim": "#dcb8ff",
+                        "tertiary-container": "#d3d0cf",
+                        "primary": "#c3f5ff",
+                        "on-surface-variant": "#bac9cc",
+                        "on-primary-container": "#00626e",
+                        "on-tertiary": "#313030",
+                        "on-primary-fixed-variant": "#004f58",
+                        "secondary-fixed": "#efdbff",
+                        "on-primary-fixed": "#001f24",
+                        "on-background": "#e2e2e2",
+                        "surface-container-low": "#1a1c1c",
+                        "on-error": "#690005",
+                        "on-tertiary-fixed-variant": "#474646",
+                        "inverse-on-surface": "#2f3131",
+                        "secondary": "#dcb8ff",
+                        "tertiary-fixed-dim": "#c8c6c5",
+                        "surface-bright": "#38393a",
+                        "surface-tint": "#00daf3",
+                        "surface-container-high": "#282a2b",
+                        "inverse-primary": "#006875",
+                        "background": "#121414",
+                        "secondary-container": "#7701d0",
+                        "on-secondary-container": "#dcb7ff",
+                        "on-tertiary-fixed": "#1c1b1b",
+                        "on-primary": "#00363d",
+                        "inverse-surface": "#e2e2e2",
+                        "on-tertiary-container": "#5a5959",
+                        "primary-container": "#00e5ff"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "section-padding": "120px",
+                        "base": "8px",
+                        "container-max": "1200px",
+                        "gutter": "24px"
+                    },
+                    "fontFamily": {
+                        "headline-md": ["Montserrat"],
+                        "body-lg": ["Inter"],
+                        "headline-sm": ["Montserrat"],
+                        "display-lg": ["Montserrat"],
+                        "display-lg-mobile": ["Montserrat"],
+                        "body-md": ["Inter"],
+                        "label-caps": ["Inter"]
+                    },
+                    "fontSize": {
+                        "headline-md": ["32px", { "lineHeight": "40px", "fontWeight": "700" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "headline-sm": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
+                        "display-lg": ["72px", { "lineHeight": "80px", "letterSpacing": "-0.02em", "fontWeight": "800" }],
+                        "display-lg-mobile": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "800" }],
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "label-caps": ["12px", { "lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "600" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body {
+            background-color: #050505;
+            color: #e2e2e2;
+        }
+        
+        /* Glassmorphism utility */
+        .glass-panel {
+            background: rgba(5, 5, 5, 0.4);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        /* Subtle glowing inputs */
+        .input-glow:focus {
+            box-shadow: 0 2px 15px rgba(195, 245, 255, 0.15);
+            border-bottom-color: #c3f5ff;
+        }
+
+        /* Button Glow */
+        .btn-glow:hover {
+            box-shadow: 0 0 15px rgba(195, 245, 255, 0.4);
+            filter: brightness(1.1);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="min-h-screen flex items-center justify-center relative overflow-hidden font-body-md antialiased">
+<!-- Atmospheric Background Glows -->
+<div class="absolute top-[-20%] left-[-10%] w-[600px] h-[600px] rounded-full bg-primary/5 blur-[120px] pointer-events-none"></div>
+<div class="absolute bottom-[-20%] right-[-10%] w-[500px] h-[500px] rounded-full bg-secondary/5 blur-[100px] pointer-events-none"></div>
+<!-- Main Content Canvas (Navigation Shell Suppressed due to Login Intent) -->
+<main class="w-full max-w-md px-gutter relative z-10">
+<!-- Login Card -->
+<div class="glass-panel rounded-xl p-8 md:p-10 shadow-2xl relative overflow-hidden group transition-all duration-500 hover:border-white/30 hover:-translate-y-2">
+<!-- Branding Header -->
+<div class="text-center mb-10">
+<h1 class="font-display-lg-mobile text-display-lg-mobile tracking-tighter text-primary dark:text-primary-fixed-dim mb-2">
+                    whitedevil
+                </h1>
+<p class="font-headline-sm text-headline-sm text-on-surface mb-1">Welcome&nbsp;</p>
+<p class="font-body-md text-body-md text-on-surface-variant">Sign in to manage your portfolio</p>
+</div>
+<!-- Login Form -->
+<form action="#" class="space-y-6" method="POST">
+<!-- Email Input -->
+<div class="relative">
+<label class="sr-only" for="email">Email</label>
+<div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+<span class="material-symbols-outlined text-on-surface-variant text-sm">mail</span>
+</div>
+<input class="block w-full pl-10 pr-3 py-3 bg-[#050505] border-0 border-b-2 border-[#121212] text-on-surface placeholder-on-surface-variant focus:ring-0 focus:border-b-primary input-glow transition-all duration-300 font-body-md text-body-md" id="email" name="email" placeholder="Email Address" required="" type="email">
+</div>
+<!-- Password Input -->
+<div class="relative">
+<label class="sr-only" for="password">Password</label>
+<div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+<span class="material-symbols-outlined text-on-surface-variant text-sm">lock</span>
+</div>
+<input class="block w-full pl-10 pr-3 py-3 bg-[#050505] border-0 border-b-2 border-[#121212] text-on-surface placeholder-on-surface-variant focus:ring-0 focus:border-b-primary input-glow transition-all duration-300 font-body-md text-body-md" id="password" name="password" placeholder="Password" required="" type="password">
+</div>
+<!-- Forgot Password Link -->
+<div class="flex items-center justify-end">
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="#">
+                        Forgot password?
+                    </a>
+</div>
+<!-- Submit Button -->
+<button class="w-full flex justify-center py-3 px-4 border border-transparent rounded-DEFAULT text-on-primary bg-gradient-to-r from-primary to-secondary font-headline-sm text-headline-sm !text-[16px] !leading-[24px] btn-glow transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary focus:ring-offset-[#050505]" type="submit">
+                    Login
+                </button>
+</form>
+<!-- Back to site -->
+<div class="mt-8 text-center"><p class="font-label-caps text-label-caps text-on-surface-variant opacity-50 mb-2">Please send a message for all purchases</p>
+<a class="inline-flex items-center text-on-surface-variant hover:text-primary transition-colors font-label-caps text-label-caps group-hover:opacity-100 opacity-70" href="#">
+<span class="material-symbols-outlined mr-1 text-[16px]">arrow_back</span>
+                    Return to Portfolio
+                </a>
+</div>
+</div>
+</main>
+
+
+
+
+</body></html>
+
+<!-- Graphic Design - whitedevil -->
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Graphic Design | whitedevil</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&amp;family=Inter:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-error-container": "#ffdad6",
+                        "on-error": "#690005",
+                        "tertiary": "#efecec",
+                        "on-secondary-fixed": "#2c0051",
+                        "surface-dim": "#121414",
+                        "surface": "#121414",
+                        "inverse-primary": "#006875",
+                        "surface-container-high": "#282a2b",
+                        "surface-container": "#1e2020",
+                        "surface-container-highest": "#333535",
+                        "on-background": "#e2e2e2",
+                        "surface-container-lowest": "#0d0e0f",
+                        "inverse-surface": "#e2e2e2",
+                        "inverse-on-surface": "#2f3131",
+                        "primary-fixed-dim": "#00daf3",
+                        "primary": "#c3f5ff",
+                        "on-tertiary-fixed": "#1c1b1b",
+                        "on-primary": "#00363d",
+                        "secondary-fixed-dim": "#dcb8ff",
+                        "error-container": "#93000a",
+                        "on-tertiary": "#313030",
+                        "tertiary-fixed-dim": "#c8c6c5",
+                        "secondary": "#dcb8ff",
+                        "on-primary-fixed": "#001f24",
+                        "on-secondary": "#480081",
+                        "background": "#121414",
+                        "surface-bright": "#38393a",
+                        "error": "#ffb4ab",
+                        "surface-tint": "#00daf3",
+                        "primary-fixed": "#9cf0ff",
+                        "outline-variant": "#3b494c",
+                        "on-tertiary-container": "#5a5959",
+                        "tertiary-fixed": "#e5e2e1",
+                        "on-secondary-fixed-variant": "#6700b5",
+                        "surface-container-low": "#1a1c1c",
+                        "on-surface": "#e2e2e2",
+                        "on-surface-variant": "#bac9cc",
+                        "on-primary-container": "#00626e",
+                        "surface-variant": "#333535",
+                        "on-secondary-container": "#dcb7ff",
+                        "on-tertiary-fixed-variant": "#474646",
+                        "secondary-fixed": "#efdbff",
+                        "on-primary-fixed-variant": "#004f58",
+                        "tertiary-container": "#d3d0cf",
+                        "secondary-container": "#7701d0",
+                        "primary-container": "#00e5ff",
+                        "outline": "#849396"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "base": "8px",
+                        "section-padding": "120px",
+                        "gutter": "24px",
+                        "container-max": "1200px"
+                    },
+                    "fontFamily": {
+                        "display-lg-mobile": ["Montserrat"],
+                        "body-lg": ["Inter"],
+                        "label-caps": ["Inter"],
+                        "headline-md": ["Montserrat"],
+                        "headline-sm": ["Montserrat"],
+                        "body-md": ["Inter"],
+                        "display-lg": ["Montserrat"]
+                    },
+                    "fontSize": {
+                        "display-lg-mobile": ["40px", {"lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "800"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                        "label-caps": ["12px", {"lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "600"}],
+                        "headline-md": ["32px", {"lineHeight": "40px", "fontWeight": "700"}],
+                        "headline-sm": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "display-lg": ["72px", {"lineHeight": "80px", "letterSpacing": "-0.02em", "fontWeight": "800"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            background-color: #050505;
+            color: #e2e2e2;
+        }
+        .glass-card {
+            background: rgba(18, 18, 18, 0.8);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .glass-card:hover {
+            border-color: rgba(0, 218, 243, 0.3);
+            transform: translateY(-8px);
+            box-shadow: 0 10px 40px -10px rgba(0, 218, 243, 0.15);
+        }
+        .neon-glow {
+            text-shadow: 0 0 10px rgba(0, 218, 243, 0.5), 0 0 20px rgba(0, 218, 243, 0.3);
+        }
+        .neon-button {
+            background: linear-gradient(45deg, #00daf3, #00e5ff);
+            transition: all 0.3s ease;
+        }
+        .neon-button:hover {
+            box-shadow: 0 0 20px rgba(0, 218, 243, 0.6);
+            filter: brightness(1.1);
+        }
+        .ghost-button {
+            border: 1px solid #00daf3;
+            color: #00daf3;
+            transition: all 0.3s ease;
+        }
+        .ghost-button:hover {
+            background: rgba(0, 218, 243, 0.1);
+            box-shadow: 0 0 15px rgba(0, 218, 243, 0.3);
+        }
+    </style>
+</head>
+<body class="antialiased overflow-x-hidden">
+<!-- TopAppBar -->
+<header class="fixed top-0 left-0 w-full z-50 bg-background/70 backdrop-blur-xl border-b border-white/5">
+<div class="max-w-container-max mx-auto px-gutter py-4 flex justify-between items-center">
+<div class="flex flex-col">
+<h1 class="text-headline-sm font-headline-sm font-extrabold tracking-tighter text-primary drop-shadow-[0_0_10px_rgba(0,218,243,0.5)] leading-tight">whitedevil</h1>
+<span class="font-label-caps text-[10px] tracking-widest text-on-surface-variant uppercase">POWERED BY NAWOD</span>
+</div>
+<div class="hidden md:flex items-center space-gap gap-8">
+<nav class="flex items-center gap-6">
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-300" href="#">Portfolio</a>
+<a class="font-label-caps text-label-caps text-primary font-bold" href="#">Services</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-300" href="#">About</a>
+</nav>
+<a class="neon-button px-6 py-2 rounded-full font-label-caps text-label-caps text-on-primary font-bold uppercase tracking-wider" href="https://api.whatsapp.com/send/?phone=94702277854&amp;text&amp;type=phone_number&amp;app_absent=0">Contact</a>
+</div>
+<button class="md:hidden text-primary">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</header>
+<main class="pt-32">
+<!-- Hero Section -->
+<section class="max-w-container-max mx-auto px-gutter py-section-padding text-center relative overflow-hidden">
+<div class="absolute -top-24 -left-24 w-96 h-96 bg-primary/10 rounded-full blur-[120px]"></div>
+<div class="absolute -bottom-24 -right-24 w-96 h-96 bg-secondary/10 rounded-full blur-[120px]"></div>
+<div class="relative z-10">
+<span class="font-label-caps text-label-caps text-primary tracking-[0.3em] uppercase mb-4 block">Creative Services</span>
+<h2 class="font-display-lg text-display-lg-mobile md:text-display-lg text-primary neon-glow mb-6 leading-tight">GRAPHIC DESIGN</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto mb-10">
+                    Visual storytelling through bold imagery and layout. We craft compelling visual identities that resonate with your audience and elevate your brand to the digital frontier.
+                </p>
+<div class="flex flex-col sm:flex-row justify-center gap-4">
+<a class="neon-button px-8 py-4 rounded-full font-label-caps text-label-caps text-on-primary font-bold uppercase tracking-widest" href="#services">Explore Services</a>
+<a class="ghost-button px-8 py-4 rounded-full font-label-caps text-label-caps font-bold uppercase tracking-widest" href="#">View Portfolio</a>
+</div>
+</div>
+</section>
+<!-- Services Section (Bento Grid Style) -->
+<section class="max-w-container-max mx-auto px-gutter py-section-padding" id="services">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<!-- Branding & Identity -->
+<div class="md:col-span-7 group glass-card rounded-xl overflow-hidden flex flex-col">
+<div class="aspect-[16/9] w-full overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida/AP1WRLsC-e6hgSxv2g6KRj5usu-U2myIGRAULz4J1PeE7w2GL7sq1-mmyp0VjbSF_1n4NJkgdHVuKSfZpnkTvH-8eA5wkYJbAcIeKRxsIiJj6qqvtwdtzEY0YIJs1TCEUS5zurexL7NL8r0CN_-LVPf9i-i11qdQHcFp9PXs9L9M-ri0vW7ov2Ikuzi81pil5mRMEOg942KnykQQAsrodbrY1YorLqMD8j3kJ9TZy9ghWt6sojVEZ6AGqSp6_dE"/>
+</div>
+<div class="p-8 flex flex-col flex-grow">
+<span class="font-label-caps text-label-caps text-primary mb-2">01. CORE SERVICE</span>
+<h3 class="font-headline-md text-headline-md text-on-background mb-4">Branding &amp; Identity</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 flex-grow">
+                            Building a cohesive visual language that defines your brand's DNA. From logo development to comprehensive style guides, we ensure your message is consistent and unforgettable.
+                        </p>
+<a class="flex items-center gap-2 text-primary font-label-caps text-label-caps group/link" href="#">
+                            LEARN MORE 
+                            <span class="material-symbols-outlined text-[18px] transition-transform group-hover/link:translate-x-1">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Small Accents / Icons Column -->
+<div class="md:col-span-5 flex flex-col gap-gutter">
+<!-- Editorial Design -->
+<div class="group glass-card rounded-xl overflow-hidden flex-grow flex flex-col">
+<div class="aspect-[4/3] w-full overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida/AP1WRLtMgAGZVDvEpYsnQCryQ43YRnSeQly5Jf-GHWZMgBiu3J7GdQVgD5sgbnjweWDByghTfwL5fV3V_SDLQNUF-GeywvqpDT76SggYpyJorZJUZFV-2oqJAjLoh75qiiPdRquncetCFfrUlTmb12zC5E8hQ4vpV6W-m5G4IU6uhy7u6So9BUFhbA-UTrn3TTXBB4voPRG9OUpzsWzBaqo611UbUcxi6PsXO1Bt8gIHIgHsl_M_WoYOL570BeM"/>
+</div>
+<div class="p-8">
+<h3 class="font-headline-sm text-headline-sm text-on-background mb-3">Editorial Design</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">
+                                Precision layouts for print and digital publishing. We turn complex data into captivating spreads.
+                            </p>
+<a class="flex items-center gap-2 text-primary font-label-caps text-label-caps group/link" href="#">
+                                LEARN MORE 
+                                <span class="material-symbols-outlined text-[18px] transition-transform group-hover/link:translate-x-1">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Visual Art & Illustration (Full Width) -->
+<div class="md:col-span-12 group glass-card rounded-xl overflow-hidden grid md:grid-cols-2">
+<div class="aspect-[16/9] md:aspect-auto w-full overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida/AP1WRLvV1GJUTikbCdnu6fwxYDCVHIWjCz88UilYUxl21WfJkcrM2zJpLDYFxBzwAGAKGCL6oWaaDb_whY2UATSSMJKuvNr4jKzIo4CgJ4cy2ReSSsmPrfUVjfVM4WiUMyjs-GhyzhS1ghWbbCK8P1M210IKpeV2L0wI1jAIb0eodrxNO5jqB5VpPgtFldI0vhznMdmMm-4zcA39YolsttIytQWe5xKoSXTZfOgJPESOWlpXKv7n6azf23dRa-U"/>
+</div>
+<div class="p-12 flex flex-col justify-center">
+<span class="font-label-caps text-label-caps text-primary mb-2">03. CREATIVE EXPRESSION</span>
+<h3 class="font-headline-md text-headline-md text-on-background mb-4">Visual Art &amp; Illustration</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8">
+                            Pushing the boundaries of digital medium with custom illustrations and conceptual art. We create bespoke visuals that elevate your marketing and product storytelling beyond the generic.
+                        </p>
+<div class="flex">
+<a class="ghost-button px-10 py-3 rounded-full font-label-caps text-label-caps font-bold uppercase tracking-widest" href="#">Learn More</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="max-w-container-max mx-auto px-gutter py-section-padding">
+<div class="glass-card rounded-2xl p-12 md:p-24 text-center relative overflow-hidden">
+<div class="absolute inset-0 opacity-10 pointer-events-none">
+<div class="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-primary via-transparent to-transparent"></div>
+</div>
+<div class="relative z-10">
+<h2 class="font-headline-md text-headline-md md:text-[48px] md:leading-[56px] text-on-background mb-6">Ready to elevate your vision?</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl mx-auto mb-10">
+                        Let's collaborate to build something exceptional. Our design studio is ready to translate your ideas into a digital reality.
+                    </p>
+<a class="neon-button inline-flex items-center gap-3 px-10 py-5 rounded-full font-label-caps text-label-caps text-on-primary font-bold uppercase tracking-[0.2em]" href="https://api.whatsapp.com/send/?phone=94702277854&amp;text&amp;type=phone_number&amp;app_absent=0">
+                        Start a Design Project
+                        <span class="material-symbols-outlined">launch</span>
+</a>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full bg-surface-container-lowest border-t border-white/5 py-section-padding px-gutter">
+<div class="max-w-container-max mx-auto flex flex-col items-center gap-base">
+<div class="text-headline-sm font-headline-sm text-primary mb-8 tracking-tighter font-extrabold">whitedevil</div>
+<nav class="flex flex-wrap justify-center gap-8 mb-12">
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-all" href="#">Portfolio</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-all" href="#">Services</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-all" href="#">Instagram</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-all" href="#">LinkedIn</a>
+</nav>
+<div class="text-center">
+<p class="font-body-md text-body-md text-primary/80 mb-2">Please send a message for all purchases</p>
+<p class="font-body-md text-body-md text-on-surface-variant/60">© 2024 whitedevil (Nawod Lakshan). All rights reserved.</p>
+</div>
+</div>
+</footer>
+<script>
+        // Simple scroll reveal effect
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100');
+                    entry.target.classList.remove('opacity-0', 'translate-y-10');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.glass-card').forEach(card => {
+            card.classList.add('opacity-0', 'translate-y-10', 'transition-all', 'duration-700');
+            observer.observe(card);
+        });
+    </script>
+</body></html>
+
+<!-- Posters & Banners - whitedevil -->
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Posters &amp; Banners - WHITEDEVIL</title>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Config -->
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface": "#121414",
+                    "error-container": "#93000a",
+                    "outline": "#849396",
+                    "on-primary-container": "#00626e",
+                    "surface-container-lowest": "#0d0e0f",
+                    "on-secondary-fixed": "#2c0051",
+                    "on-secondary": "#480081",
+                    "on-background": "#e2e2e2",
+                    "secondary-container": "#7701d0",
+                    "primary-container": "#00e5ff",
+                    "surface-bright": "#38393a",
+                    "tertiary-container": "#d3d0cf",
+                    "primary-fixed": "#9cf0ff",
+                    "primary": "#c3f5ff",
+                    "inverse-primary": "#006875",
+                    "inverse-surface": "#e2e2e2",
+                    "surface-variant": "#333535",
+                    "surface-container-low": "#1a1c1c",
+                    "background": "#121414",
+                    "surface-tint": "#00daf3",
+                    "on-tertiary-container": "#5a5959",
+                    "on-primary-fixed-variant": "#004f58",
+                    "surface-container-highest": "#333535",
+                    "tertiary-fixed-dim": "#c8c6c5",
+                    "on-tertiary-fixed": "#1c1b1b",
+                    "on-secondary-container": "#dcb7ff",
+                    "on-primary-fixed": "#001f24",
+                    "on-tertiary-fixed-variant": "#474646",
+                    "on-tertiary": "#313030",
+                    "tertiary": "#efecec",
+                    "outline-variant": "#3b494c",
+                    "error": "#ffb4ab",
+                    "surface-container-high": "#282a2b",
+                    "on-surface": "#e2e2e2",
+                    "secondary": "#dcb8ff",
+                    "on-error": "#690005",
+                    "secondary-fixed": "#efdbff",
+                    "on-surface-variant": "#bac9cc",
+                    "on-error-container": "#ffdad6",
+                    "on-primary": "#00363d",
+                    "secondary-fixed-dim": "#dcb8ff",
+                    "surface-dim": "#121414",
+                    "surface-container": "#1e2020",
+                    "primary-fixed-dim": "#00daf3",
+                    "tertiary-fixed": "#e5e2e1",
+                    "on-secondary-fixed-variant": "#6700b5",
+                    "inverse-on-surface": "#2f3131"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "section-padding": "120px",
+                    "gutter": "24px",
+                    "container-max": "1200px",
+                    "base": "8px"
+            },
+            "fontFamily": {
+                    "headline-sm": [
+                            "Montserrat"
+                    ],
+                    "display-lg-mobile": [
+                            "Montserrat"
+                    ],
+                    "body-lg": [
+                            "Inter"
+                    ],
+                    "label-caps": [
+                            "Inter"
+                    ],
+                    "body-md": [
+                            "Inter"
+                    ],
+                    "headline-md": [
+                            "Montserrat"
+                    ],
+                    "display-lg": [
+                            "Montserrat"
+                    ]
+            },
+            "fontSize": {
+                    "headline-sm": [
+                            "24px",
+                            {
+                                    "lineHeight": "32px",
+                                    "fontWeight": "600"
+                            }
+                    ],
+                    "display-lg-mobile": [
+                            "40px",
+                            {
+                                    "lineHeight": "48px",
+                                    "letterSpacing": "-0.01em",
+                                    "fontWeight": "800"
+                            }
+                    ],
+                    "body-lg": [
+                            "18px",
+                            {
+                                    "lineHeight": "28px",
+                                    "fontWeight": "400"
+                            }
+                    ],
+                    "label-caps": [
+                            "12px",
+                            {
+                                    "lineHeight": "16px",
+                                    "letterSpacing": "0.1em",
+                                    "fontWeight": "600"
+                            }
+                    ],
+                    "body-md": [
+                            "16px",
+                            {
+                                    "lineHeight": "24px",
+                                    "fontWeight": "400"
+                            }
+                    ],
+                    "headline-md": [
+                            "32px",
+                            {
+                                    "lineHeight": "40px",
+                                    "fontWeight": "700"
+                            }
+                    ],
+                    "display-lg": [
+                            "72px",
+                            {
+                                    "lineHeight": "80px",
+                                    "letterSpacing": "-0.02em",
+                                    "fontWeight": "800"
+                            }
+                    ]
+            }
+    },
+        },
+      }
+    </script>
+<style>
+        body {
+            background-color: #050505;
+        }
+        .glass-overlay {
+            background: linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0) 100%);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="text-on-background font-body-md antialiased overflow-x-hidden selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-[#050505]/70 backdrop-blur-xl border-b border-white/5 shadow-[0_0_15px_rgba(0,218,243,0.1)] transition-all duration-300">
+<div class="flex justify-between items-center px-gutter max-w-container-max mx-auto h-20">
+<button class="text-primary-fixed hover:text-primary hover:brightness-125 transition-all duration-300 active:scale-95 flex items-center justify-center p-2 rounded-full hover:bg-white/5" id="menu-toggle">
+<span class="material-symbols-outlined" style="font-size: 28px;">menu</span>
+</button>
+<div class="font-headline-md text-headline-md font-bold tracking-tighter text-primary-fixed">
+                WHITEDEVIL
+            </div>
+<button class="text-primary-fixed font-label-caps text-label-caps border border-primary-fixed/30 px-6 py-2 rounded-full hover:bg-primary-fixed/10 hover:shadow-[0_0_15px_rgba(0,218,243,0.2)] transition-all duration-300 active:scale-95 tracking-widest">
+                Contact
+            </button>
+</div>
+</header>
+<!-- NavigationDrawer -->
+<div class="fixed inset-0 bg-black/60 backdrop-blur-sm z-[55] hidden opacity-0 transition-opacity duration-300" id="drawer-overlay"></div>
+<nav class="h-full w-80 fixed left-0 top-0 z-[60] bg-surface-container-low/95 backdrop-blur-lg border-r border-white/10 shadow-2xl shadow-primary/20 flex flex-col py-8 -translate-x-full transition-transform duration-500 ease-[cubic-bezier(0.19,1,0.22,1)]" id="nav-drawer">
+<div class="px-6 mb-12 flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-surface border border-white/10 overflow-hidden shrink-0">
+<img alt="Nawod Lakshan" class="w-full h-full object-cover" data-alt="A striking, high-contrast portrait of a creative designer, illuminated by subtle neon cyan edge lighting against a pitch-black background, exuding professional technical mastery." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCkkXeMdMMUn4_RR-gVZR_GWHow7B_ous-PAoMpj3nFILNQQw6-I83B_xCB5HistQax8FHHEmPZ_cTYJSgHemswDiUxFoQFoPsBQuWmgC2RS6cXpipD6vyEQKhl_FQnZ-_-QB_VvzHl1gl3iCx38i5tyoazzIKEvRyTp89S2F2zty4Lja8Ch-_ogWSYpwmHvWU4D7aouuXsGixlRl2AqEq3eu3StaCnSRhLMel4uWTj9KEqUtdZ9QhVpPfwUkEoidF6zIx_N8RV1Y4"/>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary-fixed leading-tight">Nawod Lakshan</h3>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm mt-1">Creative Designer</p>
+<p class="font-label-caps text-label-caps text-on-surface-variant/50 mt-1">whitedevil</p>
+</div>
+</div>
+<div class="flex flex-col gap-2 mt-4">
+<!-- Active State on Work, as this is a portfolio sub-page -->
+<a class="bg-primary/10 text-primary border-l-4 border-primary px-6 py-4 flex items-center gap-4 font-body-lg text-body-lg" href="#">
+<span class="material-symbols-outlined">grid_view</span>
+                Work
+            </a>
+<a class="text-on-surface-variant px-6 py-4 flex items-center gap-4 font-body-lg text-body-lg hover:bg-white/5 hover:text-primary transition-colors active:translate-x-1 duration-300" href="#">
+<span class="material-symbols-outlined">bolt</span>
+                Services
+            </a>
+<a class="text-on-surface-variant px-6 py-4 flex items-center gap-4 font-body-lg text-body-lg hover:bg-white/5 hover:text-primary transition-colors active:translate-x-1 duration-300" href="#">
+<span class="material-symbols-outlined">person</span>
+                About
+            </a>
+<a class="text-on-surface-variant px-6 py-4 flex items-center gap-4 font-body-lg text-body-lg hover:bg-white/5 hover:text-primary transition-colors active:translate-x-1 duration-300" href="#">
+<span class="material-symbols-outlined">share</span>
+                Connect
+            </a>
+</div>
+</nav>
+<!-- Main Content Canvas -->
+<main class="pt-32 pb-section-padding px-gutter max-w-container-max mx-auto min-h-screen">
+<!-- Hero Section -->
+<section class="mb-24 relative">
+<!-- Decorative Glow -->
+<div class="absolute top-0 left-1/4 w-96 h-96 bg-primary-container/10 rounded-full blur-[100px] -z-10 pointer-events-none mix-blend-screen"></div>
+<a class="inline-flex items-center gap-2 text-on-surface-variant hover:text-primary transition-colors duration-300 mb-8 font-label-caps text-label-caps tracking-widest group" href="#">
+<span class="material-symbols-outlined text-sm group-hover:-translate-x-1 transition-transform">arrow_back</span>
+                Back to Home
+            </a>
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-on-surface mb-6">
+                Posters &amp; Banners
+            </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl border-l-2 border-primary-container/30 pl-6">
+                High-impact business promotional materials designed to capture attention instantly. Precision engineering meets striking visual aesthetics.
+            </p>
+</section>
+<!-- Gallery Grid -->
+<section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Item 1 -->
+<article class="group relative bg-[#121212] border border-white/10 rounded-xl overflow-hidden hover:-translate-y-2 transition-all duration-500 hover:border-primary-container/30 hover:shadow-[0_10px_30px_rgba(0,229,255,0.1)] flex flex-col">
+<div class="relative aspect-[3/4] w-full overflow-hidden bg-surface-container-low">
+<div class="absolute inset-0 glass-overlay z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+<img alt="Event Poster Artwork" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 filter group-hover:brightness-110" data-alt="A highly detailed, ultra-modern event poster design displayed in a dark, minimalist setting. The poster features abstract 3D geometric shapes with vibrant neon cyan and deep purple gradients, set against a stark black background. High contrast, sharp typography, glassmorphism elements, conveying a premium tech conference or underground music festival vibe." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBqzg3OZs0438QyzC3LwHQJxZ58QfUhvaQ9j7G4yHIqRSHd6-Jtc9drbHiUvutTS2qngFlPlbcu_nIHHUpFge6SN-w7Ft4QNCsoO33lJ-AWi3gAQniW5mjbHcd_bWQMVXRbFD56s68sopdMtYfX5AMQEivRSFZhXQAX5TOnsXjHapk3-eysrBlMzAHcaB_iSesplXtfCeZiUxp759rP1xOtbPxS_IZUVYqmth9Yjhws4-FzI7YZ7WhQP3ELvcoo0Fbj8dtfGAkMBgU"/>
+</div>
+<div class="p-6 relative z-20 bg-[#121212]">
+<div class="flex justify-between items-start mb-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Event Poster</h3>
+<span class="material-symbols-outlined text-on-surface-variant opacity-0 group-hover:opacity-100 group-hover:-translate-y-1 group-hover:translate-x-1 transition-all duration-300">arrow_outward</span>
+</div>
+<div class="flex gap-2 mt-4">
+<span class="font-label-caps text-label-caps text-primary bg-primary/10 border border-primary/20 px-3 py-1 rounded">TECH</span>
+<span class="font-label-caps text-label-caps text-primary bg-primary/10 border border-primary/20 px-3 py-1 rounded">PRINT</span>
+</div>
+</div>
+</article>
+<!-- Item 2 -->
+<article class="group relative bg-[#121212] border border-white/10 rounded-xl overflow-hidden hover:-translate-y-2 transition-all duration-500 hover:border-primary-container/30 hover:shadow-[0_10px_30px_rgba(0,229,255,0.1)] flex flex-col">
+<div class="relative aspect-[4/3] md:aspect-[3/4] w-full overflow-hidden bg-surface-container-low">
+<div class="absolute inset-0 glass-overlay z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+<img alt="Business Banner Artwork" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 filter group-hover:brightness-110" data-alt="A sleek, professional business banner design showcased in a sophisticated dark mode environment. The banner utilizes deep charcoal tones with subtle cyan accents and clean, crisp white typography. The composition includes sleek line art and a dynamic diagonal layout, representing corporate innovation and premium digital agency services." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCN5nf0MVCg2dXX8LwCuncoDs4Bi_tkBjM0zHjUCF_kT0RR4Y_kHiyJPvusLZcHaou4uR7cCaTfJznSWD9dr2vnFNeliZn_cA-Gq2Vs0P04jX_B1rjm5T98TUQe7XLntnAeQBylJ4o9UYMBWJ5jAD_jtbmjo9aXyq3PoVP20Tf7eHGsjNocmD9PxFiOnveww9QYgFGPDUttGc78Ge2OydsQiO_Begqdr-z3M8Mbro3S6yipyr22OVjcyVJRUO9Jw7AA2d6E1W-kTvQ"/>
+</div>
+<div class="p-6 relative z-20 bg-[#121212]">
+<div class="flex justify-between items-start mb-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Business Banner</h3>
+<span class="material-symbols-outlined text-on-surface-variant opacity-0 group-hover:opacity-100 group-hover:-translate-y-1 group-hover:translate-x-1 transition-all duration-300">arrow_outward</span>
+</div>
+<div class="flex gap-2 mt-4">
+<span class="font-label-caps text-label-caps text-primary bg-primary/10 border border-primary/20 px-3 py-1 rounded">CORPORATE</span>
+</div>
+</div>
+</article>
+<!-- Item 3 -->
+<article class="group relative bg-[#121212] border border-white/10 rounded-xl overflow-hidden hover:-translate-y-2 transition-all duration-500 hover:border-primary-container/30 hover:shadow-[0_10px_30px_rgba(0,229,255,0.1)] flex flex-col">
+<div class="relative aspect-square md:aspect-[3/4] w-full overflow-hidden bg-surface-container-low">
+<div class="absolute inset-0 glass-overlay z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+<img alt="Social Media Graphic Artwork" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 filter group-hover:brightness-110" data-alt="An eye-catching social media graphic design presented within a dark, premium digital portfolio interface. The graphic features a bold, glowing neon cyan focal point against an ultra-dark, textured background. It incorporates glassmorphic overlays and high-tech UI elements, designed for maximum engagement in a tech-focused feed." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDPUPUBhQ7zkVvk0I2NbXrtXdQjJh3WMgvvQCkXXik2sqK_33AXf-eRaotD8d6smeWaypxPl8CnMalSdzUC8EoOytpMxB8P52TxlfR1NtGbX5JNMQJvBBt39LuRKZilH-hDkC7iatnrhYGggXeix6ncEjpZy1k0imQackywVprmxzqZKflCUxGvGlEzOmyvCGl56I-a5mp0Gb0uQarUJdWoBLMyV93CAPYuKXza1B78-a1qadb8w04IdTxsKDgCW4yJLWKlUqqqv9k"/>
+</div>
+<div class="p-6 relative z-20 bg-[#121212]">
+<div class="flex justify-between items-start mb-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Social Media Graphic</h3>
+<span class="material-symbols-outlined text-on-surface-variant opacity-0 group-hover:opacity-100 group-hover:-translate-y-1 group-hover:translate-x-1 transition-all duration-300">arrow_outward</span>
+</div>
+<div class="flex gap-2 mt-4">
+<span class="font-label-caps text-label-caps text-primary bg-primary/10 border border-primary/20 px-3 py-1 rounded">SOCIAL</span>
+<span class="font-label-caps text-label-caps text-primary bg-primary/10 border border-primary/20 px-3 py-1 rounded">DIGITAL</span>
+</div>
+</div>
+</article>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full relative bottom-0 border-t border-white/5 mt-section-padding bg-surface-container-lowest">
+<div class="flex flex-col md:flex-row justify-between items-center px-gutter py-12 max-w-container-max mx-auto gap-8">
+<div class="font-headline-sm text-headline-sm text-on-surface">
+                WHITEDEVIL
+            </div>
+<div class="flex flex-wrap justify-center gap-8">
+<a class="font-label-caps text-label-caps text-on-tertiary-container hover:text-primary transition-colors duration-300" href="#">Behance</a>
+<a class="font-label-caps text-label-caps text-on-tertiary-container hover:text-primary transition-colors duration-300" href="#">Instagram</a>
+<a class="font-label-caps text-label-caps text-on-tertiary-container hover:text-primary transition-colors duration-300" href="#">LinkedIn</a>
+<a class="font-label-caps text-label-caps text-on-tertiary-container hover:text-primary transition-colors duration-300" href="#">Dribbble</a>
+</div>
+<div class="font-label-caps text-label-caps text-on-tertiary-container text-center md:text-right">
+                © 2024 WHITEDEVIL. ALL RIGHTS RESERVED.
+            </div>
+</div>
+</footer>
+<!-- Interactive Scripts -->
+<script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuToggle = document.getElementById('menu-toggle');
+            const navDrawer = document.getElementById('nav-drawer');
+            const drawerOverlay = document.getElementById('drawer-overlay');
+            let isDrawerOpen = false;
+
+            function toggleDrawer() {
+                isDrawerOpen = !isDrawerOpen;
+                if (isDrawerOpen) {
+                    navDrawer.classList.remove('-translate-x-full');
+                    drawerOverlay.classList.remove('hidden');
+                    // Small delay to allow display block to apply before opacity transition
+                    setTimeout(() => {
+                        drawerOverlay.classList.remove('opacity-0');
+                    }, 10);
+                } else {
+                    navDrawer.classList.add('-translate-x-full');
+                    drawerOverlay.classList.add('opacity-0');
+                    setTimeout(() => {
+                        drawerOverlay.classList.add('hidden');
+                    }, 300); // Wait for transition
+                }
+            }
+
+            menuToggle.addEventListener('click', toggleDrawer);
+            drawerOverlay.addEventListener('click', toggleDrawer);
+        });
+    </script>
+</body></html>
